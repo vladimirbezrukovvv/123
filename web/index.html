@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бытовая Техника</title>
+    <link rel="icon" href="Images/free-icon-home-appliance-3659933.png" type="image/png">
+    <link rel="stylesheet" href="Styles/index.css">
+    <script>
+        
+        if (window.innerWidth <= 600) {  
+            document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=600, user-scalable=no');
+        }
+    </script>
+</head>
+
+<body>
+    
+    <header id="header">
+        <h1>Добро пожаловать на сайт бытовой техники</h1>
+    </header>
+
+    <nav id="navigation">
+        <a href="index.html">Главная</a>
+        <a href="form.html">Форма</a>
+        <a href="author.html">Об авторе</a>
+    </nav>
+
+    <main id="main-content">
+        <h2>Бытовая техника</h2>
+
+        <table id="product-table">
+            <thead>
+                <tr>
+                    <th>Товар</th>
+                    <th>Описание</th>
+                    <th>Изображение</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Стиральная машина Bosch WAV28K90ME1</td>
+                    <td>стирка - 9 кг, фронтальная загрузка, отжим - 1400 об/мин, программ - 14, дозагрузка белья, 46 дБ, 59.8 см x 84.8 см x 59 см</td>
+                    <td><img src="Images/stiralka.png" alt="Товар 1"  width="200" height="150"></td>
+                </tr>
+                <tr>
+                    <td>Пылесос DEXP H-1600</td>
+                    <td>1600 Вт, уборка: сухая, пылесборник - контейнер, 1.5 л</td>
+                    <td><img src="Images/pilesos.png" alt="Товар 2"  width="200" height="150"></td>
+                </tr>
+                <tr>
+                    <td>Утюг DEXP NS1600C</td>
+                    <td>1600 Вт, подошва - антипригарное покрытие, паровой удар - 40 г/мин, 1.9 м</td>
+                    <td><img src="Images/utug.png" alt="Товар 3"  width="200" height="150"></td>
+                </tr>
+                <tr>
+                    <td>Тостер Aceline TS-2000</td>
+                    <td>750 Вт, тостов - 2</td>
+                    <td><img src="Images/toster.png" alt="Товар 4"  width="200" height="150"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Другие новости</h2>
+        <p>Здесь будут другие новости и интересные статьи о бытовой технике.</p>
+        <img src="appliance1.jpg" alt="Бытовая техника 1">
+        <img src="appliance2.jpg" alt="Бытовая техника 2">
+    </main>
+
+    <footer id="footer">
+        &copy; 2023 Бытовая Техника
+    </footer>
+</body>
+
+</html>
